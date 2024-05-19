@@ -26,6 +26,8 @@ while($data=mysqli_fetch_assoc($q)) {
 <td>
 <a href="edit.php?nim=<?=$data['nim']?>">Edit</a> 
 <a href="delete.php?nim=<?=$data['nim']?>">Delete</a>
+<a href="save.php?nim=<?=$data['nim']?>">Save</a> 
+<a href="update.php?nim=<?=$data['nim']?>">Update</a>
 </td>
 </tr>
 <?php $no++; } ?>
